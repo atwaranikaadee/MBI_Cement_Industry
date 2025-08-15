@@ -1,1 +1,18 @@
+# Core
+streamlit
+pandas
+numpy
 
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Image Processing (optional)
+Pillow
+
+# API Requests (optional)
+requests

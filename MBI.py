@@ -1,3 +1,6 @@
+pip install -r requirements.txt
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -50,3 +53,6 @@ st.image(image, caption="Example image with Pillow")
 # Make an API request
 r = requests.get("https://api.github.com")
 st.write("GitHub API status code:", r.status_code)
+
+
+streamlit run app.py

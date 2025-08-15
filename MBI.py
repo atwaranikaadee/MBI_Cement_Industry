@@ -1,4 +1,4 @@
-pip install -r requirements.txt
+pip install -r Requirement.txt
 
 
 import streamlit as st
@@ -51,7 +51,7 @@ image = Image.new("RGB", (100, 50), color="lightblue")
 st.image(image, caption="Example image with Pillow")
 
 # Make an API request
-r = requests.get("https://mbiatwar.github.com")
+r = requests.get("https://mbiporject.streamlit.app")
 st.write("GitHub API status code:", r.status_code)
 
 

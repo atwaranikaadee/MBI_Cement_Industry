@@ -52,5 +52,3 @@ st.image(image, caption="Example image with Pillow")
 r = requests.get("https://mbiporject.streamlit.app")
 st.write("GitHub API status code:", r.status_code)
 
-
-streamlit run MBI.py

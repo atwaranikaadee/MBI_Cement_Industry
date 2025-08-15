@@ -1,18 +1,9 @@
-# Core
 streamlit
 pandas
 numpy
-
-# Machine Learning
-scikit-learn
-
-# Visualization
 matplotlib
 seaborn
 plotly
-
-# Image Processing (optional)
+scikit-learn
 Pillow
-
-# API Requests (optional)
 requests

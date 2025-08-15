@@ -51,8 +51,8 @@ image = Image.new("RGB", (100, 50), color="lightblue")
 st.image(image, caption="Example image with Pillow")
 
 # Make an API request
-r = requests.get("https://api.github.com")
+r = requests.get("https://mbiatwar.github.com")
 st.write("GitHub API status code:", r.status_code)
 
 
-streamlit run app.py
+streamlit run MBI.py
